@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fondoPrincipal{
+    display: flex;
+    background-image: radial-gradient(circle, rgb(25, 167, 202) 0%, rgb(0, 69, 172) 100%);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.tituloPrincipal{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: .9em;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+.tituloPrincipal > span{
+    font-weight: bold;
+    letter-spacing: .3em;
+    color: #333;
+    font-size: 3.5em;
+}
+
+.mouseenter-titulo{
+    transition : .3s;
+    padding : .8em;
+    border: 10px solid white;
+    border-radius: 15px;
+    font-size: 1.9em;
+}
+.mouseout-titulo{
+    transition: .3s;
+    padding: 0;
+    border: 0px solid white;
+}
