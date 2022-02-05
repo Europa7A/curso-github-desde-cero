@@ -1,0 +1,19 @@
+
+
+GITHUB
+
+Commands:
+
+- git init (inicializa el proyecto)
+- git add (añade los archivos al area de trabajo)
+- git commit (confirma los cambios realizados en el proyecto)
+- git status (revisa el estado actual del proyecto)
+- git log (muestra todo el historial realizado en el proyecto)
+- git restore <filename> (descarta los cambio realizados en un archivo y devuelve el aterior)
+- git diff <filename> (muestra las diferencias de un archivo modificado y compara con el original)
+- git branch (muestra el las versiones del proyecto)
+- git branch <name-proyect> (crea una version alternativa del proyecto)
+- git checkout <name-proyect> (apunta al proyecto que deseemos)
+- git remote add origin <url> (agrega el proyecto al repositorio github)
+- git push -u origin master (inserta empuja el proyecto master al repositorio)
+- git clone <url> (descarga el proyecto del repositorio)
