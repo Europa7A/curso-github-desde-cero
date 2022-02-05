@@ -13,3 +13,6 @@ titulo.addEventListener("mouseout", function(event){
     titulo.classList.remove("mouseenter-titulo");
     titulo.classList.add("mouseout-titulo");
 });
+titulo.addEventListener("click",(event) => {
+    alert("Creado por Alonso Sebatián");
+});
